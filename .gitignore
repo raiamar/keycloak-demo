@@ -1,0 +1,52 @@
+# Build results
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio specific files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider specific files
+.idea/
+
+# Visual Studio Code specific files
+.vscode/
+
+# ASP.NET specific
+appsettings*.json
+appsettings.*.json
+*.db
+
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
+*.props
+*.targets
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Others
+*.pdb
+*.mdb
+*.db

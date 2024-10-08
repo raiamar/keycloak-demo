@@ -1,0 +1,102 @@
+[
+  {
+    "Id": 1,
+    "Name": "John Doe",
+    "Email": "john.doe@example.com",
+    "Phone": "123456789",
+    "BankName": "ABC Bank",
+    "Account": "1234567890",
+    "Citizenship": "XYZ123",
+    "Status": "pending"
+  },
+  {
+    "Id": 2,
+    "Name": "Jane Smith",
+    "Email": "jane.smith@example.com",
+    "Phone": "987654321",
+    "BankName": "XYZ Bank",
+    "Account": "0987654321",
+    "Citizenship": "ABC987",
+    "Status": "pending"
+  },
+  {
+    "Id": 3,
+    "Name": "Robert Johnson",
+    "Email": "robert.johnson@example.com",
+    "Phone": "1122334455",
+    "BankName": "DEF Bank",
+    "Account": "4455667788",
+    "Citizenship": "DEF456",
+    "Status": "rejected"
+  },
+  {
+    "Id": 4,
+    "Name": "Emily Davis",
+    "Email": "emily.davis@example.com",
+    "Phone": "2233445566",
+    "BankName": "GHI Bank",
+    "Account": "6677889900",
+    "Citizenship": "GHI789",
+    "Status": "pending"
+  },
+  {
+    "Id": 5,
+    "Name": "Michael Wilson",
+    "Email": "michael.wilson@example.com",
+    "Phone": "3344556677",
+    "BankName": "JKL Bank",
+    "Account": "7788990011",
+    "Citizenship": "JKL012",
+    "Status": "approved"
+  },
+  {
+    "Id": 6,
+    "Name": "Sophia Martinez",
+    "Email": "sophia.martinez@example.com",
+    "Phone": "4455667788",
+    "BankName": "MNO Bank",
+    "Account": "8899001122",
+    "Citizenship": "MNO345",
+    "Status": "rejected"
+  },
+  {
+    "Id": 7,
+    "Name": "William Brown",
+    "Email": "william.brown@example.com",
+    "Phone": "5566778899",
+    "BankName": "PQR Bank",
+    "Account": "9900112233",
+    "Citizenship": "PQR678",
+    "Status": "approved"
+  },
+  {
+    "Id": 8,
+    "Name": "Isabella Garcia",
+    "Email": "isabella.garcia@example.com",
+    "Phone": "6677889900",
+    "BankName": "STU Bank",
+    "Account": "0011223344",
+    "Citizenship": "STU901",
+    "Status": "approved"
+  },
+  {
+    "Id": 9,
+    "Name": "James Anderson",
+    "Email": "james.anderson@example.com",
+    "Phone": "7788990011",
+    "BankName": "VWX Bank",
+    "Account": "1122334455",
+    "Citizenship": "VWX234",
+    "Status": "rejected"
+  },
+  {
+    "Id": 10,
+    "Name": "Olivia Lee",
+    "Email": "olivia.lee@example.com",
+    "Phone": "8899001122",
+    "BankName": "YZA Bank",
+    "Account": "2233445566",
+    "Citizenship": "YZA567",
+    "Status": "approved"
+  }
+]
