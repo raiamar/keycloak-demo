@@ -4,6 +4,7 @@
 This project integrates Keycloak, an open-source identity and access management solution, to provide secure authentication and authorization for your applications.
 
 Find more on keycloak in https://medium.com/@raiamar021/integrating-keycloak-with-net-a-simple-example-of-authentication-and-authorization-05cb6187eb35 
+https://medium.com/@raiamar021/enhancing-api-security-with-keycloak-and-token-introspection-a2c52f45c151
 
 ## Useful references
 - https://youtu.be/fvxQ8bW0vO8?t=636
