@@ -8,6 +8,11 @@ namespace keycloak.Controllers;
 [ApiController]
 public class UsersController : ControllerBase
 {
+    [HttpGet("test-auth")]
+    public IActionResult AuthTesting()
+    {
+        return Ok("you are authen ticate");
+    }
     private string filePath = "users.json";
 
     // Get all pending users

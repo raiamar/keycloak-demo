@@ -20,9 +20,8 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         o.TokenValidationParameters = new TokenValidationParameters
         {
             ValidIssuer = builder.Configuration["Keycloak:ValidIssuer"],
-            //RoleClaimType = "realm_access.roles",
             ValidateIssuerSigningKey = true,
-            ValidateAudience = false,
+            ValidateAudience = true,
             ValidateLifetime = true,
             ValidateIssuer = true
         };

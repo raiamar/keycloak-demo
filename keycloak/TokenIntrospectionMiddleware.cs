@@ -42,16 +42,13 @@ public class TokenIntrospectionMiddleware
                         await _next(context); // Token is valid, continue the pipeline
                         return;
                     }
-                    //else { context.Request.Headers.Remove("Authorization"); }
                 }
             }
-
-            // If we reach here, token is not valid
-            context.Response.StatusCode = (int)HttpStatusCode.Unauthorized;
-            return;
         }
 
-        // No token present in the request
-        await _next(context);
+        // If we reach here, token is not valid
+        context.Response.StatusCode = (int)HttpStatusCode.Unauthorized;
+        return;
+       
     }
 }
